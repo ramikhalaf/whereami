@@ -14,6 +14,7 @@
 		73F2A9831C7C32D60011DDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F2A9811C7C32D60011DDC9 /* LaunchScreen.storyboard */; };
 		73F2A98E1C7C32D60011DDC9 /* Where_Am_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2A98D1C7C32D60011DDC9 /* Where_Am_ITests.swift */; };
 		73F2A9991C7C32D60011DDC9 /* Where_Am_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2A9981C7C32D60011DDC9 /* Where_Am_IUITests.swift */; };
+		73F2A9A71C7C35460011DDC9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F2A9A61C7C35460011DDC9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73F2A9941C7C32D60011DDC9 /* Where Am IUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am IUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F2A9981C7C32D60011DDC9 /* Where_Am_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_IUITests.swift; sourceTree = "<group>"; };
 		73F2A99A1C7C32D60011DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F2A9A61C7C35460011DDC9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F2A9A71C7C35460011DDC9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		73F2A96C1C7C32D60011DDC9 = {
 			isa = PBXGroup;
 			children = (
+				73F2A9A61C7C35460011DDC9 /* CoreLocation.framework */,
 				73F2A9771C7C32D60011DDC9 /* Where Am I */,
 				73F2A98C1C7C32D60011DDC9 /* Where Am ITests */,
 				73F2A9971C7C32D60011DDC9 /* Where Am IUITests */,
